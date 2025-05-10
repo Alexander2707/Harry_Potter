@@ -2,7 +2,6 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./css/fourteenth.css">
   <title>Harry Potter. Тест: Чи можеш ти стати аврором?</title>
   <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="favicons/favicon.svg" />
@@ -10,100 +9,104 @@
   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-title" content="Harry Potter" />
   <link rel="manifest" href="favicons/site.webmanifest" />
+  <link rel="stylesheet" href="./css/fourteenth.css">
 </head>
 <body>
 
+<div class="box">
   <a href="second.html">Повернутись назад</a>
 
-<div class="quiz-container" id="quiz">
-  <h1>🔍 Тест: Чи можеш ти стати аврором?</h1>
-
-  <form id="quizForm">
-    <!-- 1 -->
-    <div class="question">
-      <h2>1. Яке закляття роззброює ворога?</h2>
-      <label><input type="radio" name="q1" value="1"> Expelliarmus</label><br>
-      <label><input type="radio" name="q1" value="0"> Lumos</label><br>
-      <label><input type="radio" name="q1" value="0"> Accio</label>
-    </div>
-
-    <!-- 2 -->
-    <div class="question">
-      <h2>2. Що робить закляття "Reducto"?</h2>
-      <label><input type="radio" name="q2" value="1"> Руйнує предмети або бар'єри</label><br>
-      <label><input type="radio" name="q2" value="0"> Створює захисний щит</label><br>
-      <label><input type="radio" name="q2" value="0"> Освітлює темряву</label>
-    </div>
-
-    <!-- 3 -->
-    <div class="question">
-      <h2>3. Що робить "Lumos"?</h2>
-      <label><input type="radio" name="q3" value="1"> Освітлює паличку</label><br>
-      <label><input type="radio" name="q3" value="0"> Робить предмети невидимими</label><br>
-      <label><input type="radio" name="q3" value="0"> Заморожує ворога</label>
-    </div>
-
-    <!-- 4 -->
-    <div class="question">
-      <h2>4. Яке закляття є непробачним?</h2>
-      <label><input type="radio" name="q4" value="1"> Avada Kedavra</label><br>
-      <label><input type="radio" name="q4" value="0"> Stupefy</label><br>
-      <label><input type="radio" name="q4" value="0"> Alohomora</label>
-    </div>
-
-    <!-- 5 -->
-    <div class="question">
-      <h2>5. Що робить "Protego"?</h2>
-      <label><input type="radio" name="q5" value="1"> Відбиває закляття</label><br>
-      <label><input type="radio" name="q5" value="0"> Розпалює вогонь</label><br>
-      <label><input type="radio" name="q5" value="0"> Викликає блискавку</label>
-    </div>
-
-    <!-- 6 -->
-    <div class="question">
-      <h2>6. Як перекладається "Alohomora"?</h2>
-      <label><input type="radio" name="q6" value="1"> Відкриття замків</label><br>
-      <label><input type="radio" name="q6" value="0"> Виклик об’єкта</label><br>
-      <label><input type="radio" name="q6" value="0"> Лікування</label>
-    </div>
-
-    <!-- 7 -->
-    <div class="question">
-      <h2>7. Що робить "Impedimenta"?</h2>
-      <label><input type="radio" name="q7" value="1"> Уповільнює або зупиняє супротивника</label><br>
-      <label><input type="radio" name="q7" value="0"> Піднімає предмети в повітря</label><br>
-      <label><input type="radio" name="q7" value="0"> Створює ілюзію</label>
-    </div>
-
-    <!-- 8 -->
-    <div class="question">
-      <h2>8. Яке закляття зцілює?</h2>
-      <label><input type="radio" name="q8" value="1"> Episkey</label><br>
-      <label><input type="radio" name="q8" value="0"> Crucio</label><br>
-      <label><input type="radio" name="q8" value="0"> Sectumsempra</label>
-    </div>
-
-    <!-- 9 -->
-    <div class="question">
-      <h2>9. Що робить "Accio"?</h2>
-      <label><input type="radio" name="q9" value="1"> Притягує предмет до чарівника</label><br>
-      <label><input type="radio" name="q9" value="0"> Створює вогонь</label><br>
-      <label><input type="radio" name="q9" value="0"> Робить предмет невидимим</label>
-    </div>
-
-    <!-- 10 -->
-    <div class="question">
-      <h2>10. Яке закляття завдає ріжучих поранень?</h2>
-      <label><input type="radio" name="q10" value="1"> Sectumsempra</label><br>
-      <label><input type="radio" name="q10" value="0"> Lumos</label><br>
-      <label><input type="radio" name="q10" value="0"> Expecto Patronum</label>
-    </div>
-
-    <button type="submit">Перевірити результат</button>
-  </form>
-
-  <div class="result" id="result" style="display: none;"></div>
+  <div class="quiz-container" id="quiz">
+    <h1>🔍 Тест: Чи можеш ти стати аврором?</h1>
+  
+    <form id="quizForm">
+      <!-- 1 -->
+      <div class="question">
+        <h2>1. Яке закляття роззброює ворога?</h2>
+        <label><input type="radio" name="q1" value="1"> Expelliarmus</label><br>
+        <label><input type="radio" name="q1" value="0"> Lumos</label><br>
+        <label><input type="radio" name="q1" value="0"> Accio</label>
+      </div>
+  
+      <!-- 2 -->
+      <div class="question">
+        <h2>2. Що робить закляття "Reducto"?</h2>
+        <label><input type="radio" name="q2" value="1"> Руйнує предмети або бар'єри</label><br>
+        <label><input type="radio" name="q2" value="0"> Створює захисний щит</label><br>
+        <label><input type="radio" name="q2" value="0"> Освітлює темряву</label>
+      </div>
+  
+      <!-- 3 -->
+      <div class="question">
+        <h2>3. Що робить "Lumos"?</h2>
+        <label><input type="radio" name="q3" value="1"> Освітлює паличку</label><br>
+        <label><input type="radio" name="q3" value="0"> Робить предмети невидимими</label><br>
+        <label><input type="radio" name="q3" value="0"> Заморожує ворога</label>
+      </div>
+  
+      <!-- 4 -->
+      <div class="question">
+        <h2>4. Яке закляття є непробачним?</h2>
+        <label><input type="radio" name="q4" value="1"> Avada Kedavra</label><br>
+        <label><input type="radio" name="q4" value="0"> Stupefy</label><br>
+        <label><input type="radio" name="q4" value="0"> Alohomora</label>
+      </div>
+  
+      <!-- 5 -->
+      <div class="question">
+        <h2>5. Що робить "Protego"?</h2>
+        <label><input type="radio" name="q5" value="1"> Відбиває закляття</label><br>
+        <label><input type="radio" name="q5" value="0"> Розпалює вогонь</label><br>
+        <label><input type="radio" name="q5" value="0"> Викликає блискавку</label>
+      </div>
+  
+      <!-- 6 -->
+      <div class="question">
+        <h2>6. Як перекладається "Alohomora"?</h2>
+        <label><input type="radio" name="q6" value="1"> Відкриття замків</label><br>
+        <label><input type="radio" name="q6" value="0"> Виклик об’єкта</label><br>
+        <label><input type="radio" name="q6" value="0"> Лікування</label>
+      </div>
+  
+      <!-- 7 -->
+      <div class="question">
+        <h2>7. Що робить "Impedimenta"?</h2>
+        <label><input type="radio" name="q7" value="1"> Уповільнює або зупиняє супротивника</label><br>
+        <label><input type="radio" name="q7" value="0"> Піднімає предмети в повітря</label><br>
+        <label><input type="radio" name="q7" value="0"> Створює ілюзію</label>
+      </div>
+  
+      <!-- 8 -->
+      <div class="question">
+        <h2>8. Яке закляття зцілює?</h2>
+        <label><input type="radio" name="q8" value="1"> Episkey</label><br>
+        <label><input type="radio" name="q8" value="0"> Crucio</label><br>
+        <label><input type="radio" name="q8" value="0"> Sectumsempra</label>
+      </div>
+  
+      <!-- 9 -->
+      <div class="question">
+        <h2>9. Що робить "Accio"?</h2>
+        <label><input type="radio" name="q9" value="1"> Притягує предмет до чарівника</label><br>
+        <label><input type="radio" name="q9" value="0"> Створює вогонь</label><br>
+        <label><input type="radio" name="q9" value="0"> Робить предмет невидимим</label>
+      </div>
+  
+      <!-- 10 -->
+      <div class="question">
+        <h2>10. Яке закляття завдає ріжучих поранень?</h2>
+        <label><input type="radio" name="q10" value="1"> Sectumsempra</label><br>
+        <label><input type="radio" name="q10" value="0"> Lumos</label><br>
+        <label><input type="radio" name="q10" value="0"> Expecto Patronum</label>
+      </div>
+  
+      <button type="submit">Перевірити результат</button>
+    </form>
+  
+    <div class="result" id="result" style="display: none;"></div>
+  </div>
 </div>
+  
 
 <script src="js/test.js"></script>
 
