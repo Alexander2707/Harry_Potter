@@ -73,4 +73,9 @@ button:hover {
     a{
         padding-bottom: 40px;
     }
+
+    .question input{
+        width: 15px;
+        height: 15px;
+    }
 }
