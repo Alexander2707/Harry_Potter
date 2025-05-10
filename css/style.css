@@ -350,9 +350,9 @@ footer {
     width: 80%;
   }
 
-  .hero-section{
-    justify-content: start;
-    margin-top: 40px;
+  .hero_section{
+    justify-content: center;
+    margin-top: 0;
   }
 
   .world-section_title{
